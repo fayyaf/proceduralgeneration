@@ -15,9 +15,10 @@ public class Pathmaker : MonoBehaviour {
 
 	void Start()
 	{
-		x = Random.Range(-10, 10);
+		// randomize starting position
+		x = Random.Range(-50, 50);
 		y = 1;
-		z = Random.Range(-10, 10);
+		z = Random.Range(-50, 50);
 		pos = new Vector3(x, y, z);
 		transform.position = pos;
 	}
